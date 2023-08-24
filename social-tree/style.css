@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62,5%;
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Primeiro Container */
+.first {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first img {
+  width: 15rem;
+  border-radius: 50%;
+  border: 2px solid #B9D;
+  padding: 0.2rem;
+  margin-top: 120px;
+  margin-bottom: 15px;
+}
+
+.links-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.insta {
+  color: #B9D;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-bottom: 33px;
+}
+
+.ancora {
+  display: flex;
+  justify-content: center;
+  color: #B9D;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 2px solid #B9D;
+  text-decoration: none;
+  padding: 12px 140px;
+  margin: 16px;
+  width: 22rem;
+}
+
+/* Segundo Container */
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 68px;
+}
+
+.iconsredes {
+  padding: 18px;
+}
+
+/* Efeitos Hover */
+
+.img:hover {
+  box-shadow: 0px 0px 10px rgba(176, 92, 255, 0.5);
+}
+
+.insta:hover {
+  color: rgb(61, 0, 131);
+}
+
+.ancora:hover {
+  background-color: #BB99DD;
+  color: rgb(61, 0, 131);
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
